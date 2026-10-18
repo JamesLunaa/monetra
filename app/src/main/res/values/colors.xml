@@ -1,0 +1,4 @@
+<resources>
+    <!-- Matches the dark theme background to avoid a flash on launch. -->
+    <color name="window_background">#FF0E0C13</color>
+</resources>

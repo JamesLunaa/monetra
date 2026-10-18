@@ -1,0 +1,13 @@
+<resources>
+    <!-- Window theme only; all UI colors live in the Compose MonetraTheme. -->
+    <style name="Theme.Monetra" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <!-- Launch theme: the logo mark on the night ground until the first records are ready. -->
+    <style name="Theme.Monetra.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/window_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Monetra</item>
+    </style>
+</resources>
