@@ -24,7 +24,7 @@ Money is stored as exact integer amounts, never floating point.
 
 ### Option 1: download the APK
 
-1. On your phone, open the [Releases page](https://github.com/JamesLunaa/Monetra/releases) and download the latest `.apk` file.
+1. On your phone, open the [Releases page](https://github.com/JamesLunaa/monetra/releases) and download the latest `.apk` file.
 2. Open the downloaded file. Android will ask to allow installs from your browser or file manager; allow it for this install.
 3. Tap **Install**, then **Open**.
 
@@ -37,8 +37,8 @@ Android may warn that the app is from an unknown source. That is normal for apps
 You need [Android Studio](https://developer.android.com/studio) (or JDK 17+ and the Android SDK with platform 36), and git.
 
 ```sh
-git clone https://github.com/JamesLunaa/Monetra.git
-cd Monetra
+git clone https://github.com/JamesLunaa/monetra.git
+cd monetra
 ./gradlew assembleDebug
 ```
 
