@@ -4,6 +4,8 @@ A free, open-source personal finance tracker for Android. Log income and expense
 
 Built with Kotlin and Jetpack Compose. Dark mode by default, with a light mode in Preferences.
 
+![Monetra: log an expense on the keypad, see it land in the day's records, check where the month's money went, and split a bill](docs/demo.gif)
+
 ## Features
 
 - **Records:** income, expense and transfers between accounts, with a calculator keypad, notes, date and time. Grouped by day, with daily to yearly views and optional carry-over.
