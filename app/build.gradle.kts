@@ -19,8 +19,9 @@ android {
         applicationId = "com.example.monetra"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.0.1"
+        // Never lower versionCode: Android refuses to install over a higher one (earlier builds used 1 and 2).
+        versionCode = 3
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
