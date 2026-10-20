@@ -7,6 +7,9 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
+// APKs come out as monetra-release.apk / monetra-debug.apk instead of app-*.apk.
+base.archivesName = "monetra"
+
 android {
     namespace = "io.github.jameslunaa.monetra"
     compileSdk {
