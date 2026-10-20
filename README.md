@@ -69,7 +69,7 @@ Monetra has no account, no ads, no analytics and no network access. Records live
 ./gradlew test            # unit tests
 ```
 
-Single `:app` module, package `com.example.monetra`. Room for storage, DataStore for settings, Navigation Compose for screens.
+Single `:app` module, package `io.github.jameslunaa.monetra`. Room for storage, DataStore for settings, Navigation Compose for screens.
 
 ## License
 
