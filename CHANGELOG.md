@@ -4,6 +4,11 @@ All notable changes to Monetra. The format follows [Keep a Changelog](https://ke
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-20
+
+### Changed
+- The app's package name is now `io.github.jameslunaa.monetra` (it was `com.example.monetra`). Android treats this as a new app, so 1.1.0 installs next to 1.0.0 instead of updating it. To keep your data, use **Back up now** in 1.0.0, then **Restore…** in 1.1.0. Preferences and the app lock PIN are not part of the backup, so set them again.
+
 ## [1.0.0] - 2026-10-18
 
 ### Added

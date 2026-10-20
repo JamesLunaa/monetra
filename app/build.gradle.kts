@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.monetra"
+    namespace = "io.github.jameslunaa.monetra"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -16,12 +16,12 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.monetra"
+        applicationId = "io.github.jameslunaa.monetra"
         minSdk = 26
         targetSdk = 36
         // Never lower versionCode: Android refuses to install over a higher one (earlier builds used 1 and 2).
-        versionCode = 3
-        versionName = "1.0.0"
+        versionCode = 4
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
