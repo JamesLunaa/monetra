@@ -42,7 +42,7 @@ cd monetra
 ./gradlew assembleDebug
 ```
 
-The APK is written to `app/build/outputs/apk/debug/app-debug.apk`. Copy it to your phone and open it as above, or install it over USB:
+The APK is written to `app/build/outputs/apk/debug/monetra-debug.apk`. Copy it to your phone and open it as above, or install it over USB:
 
 1. On the phone, enable **Developer options** and turn on **USB debugging**.
 2. Plug the phone in and accept the prompt.
